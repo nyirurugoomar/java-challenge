@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <title>javascript on steroids</title>
+</head>
+<body>
+    <div class="container-1">
+        <h2>Challenge 1: your Age in Days</h2>
+
+        <div class="flex-box-container-1">
+
+            <div>
+                <button class="btn btn-primary" onclick="ageInDays()">Click me</button>
+            </div>
+            
+            <div>
+                <button class="btn btn-danger" onclick="reset()">reset</button>
+            </div>
+        </div>
+
+        <div class="flex-box-container-1">
+            <div id="flex-box-result">
+                <h1 id="sometext"></h1>
+                
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container-2">
+        <h2>challenge 2 cat generator</h2>
+        <button class="btn btn-success" id= "cat-generator" onclick="generateCat()">Generate Cat</button>
+        <div class="flex-box-container-2" id="flex-cat-gen">
+            
+        </div>
+    </div>
+
+    <div class="container-3">
+        <h2>Challenge 3: Rock, Paper, Scissors</h2>
+        <div class="flex-box-rps" id="flex-box-rps-div">
+            <img id="rock" src="https://lh3.googleusercontent.com/proxy/AEcx66Wlc-oh4-cHX-0bGFAI8peJcar-M5nOBLiQPKerW88bp_NHNvLbYzY2zTR3K_DGKfVfL-GsrbwT7tiQj8By8ptI7-4F8UFClX5hmegIpltRU8biyDpImPNlCdHKzzqdY41jsBVbiQ" height=150 width=150 alt="" onclick="rpsGame(this)">
+            <img id="Paper" src="https://lh3.googleusercontent.com/proxy/51340zNgDQgY3bxebXJH1q0BqGmPxsSxvmhpJkTNLeXAiCAEiQFNdyJsxLj7NsdQ_H4QthKMW9938n-yU3M8NblzYqfbyrHSPNwe2mAM6WBWRE1HSf1iZ4RDaJSlC0jr" height=150 width=150 alt="" onclick="rpsGame(this)">
+            <img id="Scissors" src="https://lh3.googleusercontent.com/proxy/pxJ9iTD4FMfFxD5sT7ZbORrRsU7QYt3x1K21EENGqbTv5oiwxqc4gQPo6VSQPwYvy9kA54vHZF0QCEz_aQul9A0tcmvhry0aQWTjvIjACBsPDySuoUTCQBDIHgixvsokxvqTfg3Afodh6rxi3vVeCOQwlQ" height=150 width=150 alt="" onclick="rpsGame(this)">
+
+
+        </div>
+
+    </div>
+
+
+    <script src ="static/js/script.js"></script>
+    
+</body>
+</html>
